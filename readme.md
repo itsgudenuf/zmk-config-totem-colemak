@@ -1,3 +1,5 @@
+# This is my copy of [GEIGEIGEIST's work](https://github.com/GEIGEIGEIST/zmk-config-totem)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/docs/images/TOTEM_logo_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="/docs/images/TOTEM_logo_bright.svg">
