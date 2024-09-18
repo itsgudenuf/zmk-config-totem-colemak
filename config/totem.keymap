@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp Q       &kp W       &kp F        &kp P        &kp G          &kp J    &kp L        &kp U        &kp Y       &kp SEMI
-                  &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D          &kp H    &mt RSHFT N  &mt RCTRL E  &mt RALT I  &mt RGUI O
-&kp LEFT_CONTROL  &kp Z       &kp X       &kp C        &kp V        &kp B          &kp K    &kp M        &kp COMMA    &kp DOT     &kp FSLH    &mt RIGHT_SHIFT BACKSLASH
-                                          &lt NAV TAB  &kp BSPC     &lt 1 SPACE    &kp RET  &kp DEL      &lt SYM ESC
+                        &kp Q       &kp W       &kp F        &kp P        &kp G          &kp J    &kp L        &kp U        &kp Y       &kp SEMI
+                        &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D          &kp H    &mt RSHFT N  &mt RCTRL E  &mt RALT I  &mt RGUI O
+&mt LEFT_CONTROL GRAVE  &kp Z       &kp X       &kp C        &kp V        &kp B          &kp K    &kp M        &kp COMMA    &kp DOT     &kp FSLH    &mt RIGHT_SHIFT BACKSLASH
+                                                &lt NAV TAB  &kp BSPC     &lt 1 SPACE    &kp RET  &kp DEL      &lt SYM ESC
             >;
         };
 
@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp KP_EQUAL  &kp LEFT   &kp UP    &kp RIGHT  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY
-        &kp LSHFT     &kp HOME   &kp DOWN  &kp END    &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp MINUS
-&trans  &kp DELETE    &kp PG_UP  &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_PLUS      &trans
-                                 &trans    &trans     &trans      &mo ADJ   &kp KP_N0  &trans
+        &kp KP_EQUAL  &kp HOME        &kp UP    &kp END          &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY
+        &kp LSHFT     &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp MINUS
+&trans  &kp DELETE    &kp PG_UP       &kp CAPS  &kp PG_DN        &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_PLUS      &trans
+                                      &trans    &trans           &trans      &mo ADJ   &kp KP_N0  &trans
             >;
         };
 
