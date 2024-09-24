@@ -44,6 +44,11 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
