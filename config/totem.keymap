@@ -206,10 +206,6 @@
             >;
         };
 
-            bindings = <
-
-&mt LEFT_CONTROL GRAVE  &kp Z       &kp X       &kp C        &kp V            &kp B      //       &kp K      &kp M         &kp COMMA    &kp DOT     &kp FSLH    &mt RIGHT_SHIFT BACKSLASH
-    
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
