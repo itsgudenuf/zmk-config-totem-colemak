@@ -90,10 +90,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                        &kp Q       &kp W       &kp F        &kp P        &kp G          &kp J      &kp L        &kp U        &kp Y       &kp SEMI
-                        &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D          &kp H      &mt RSHFT N  &mt RCTRL E  &mt RALT I  &mt RGUI O
-&mt LEFT_CONTROL GRAVE  &kp Z       &kp X       &kp C        &kp V        &kp B          &kp K      &kp M        &kp COMMA    &kp DOT     &kp FSLH    &mt RIGHT_SHIFT BACKSLASH
-                                                &lt 2 TAB    &kp BSPC     &lt 1 SPACE    &lt 1 RET  &kp DEL      &lt SYM ESC
+                        &kp Q       &kp W       &kp F        &kp P            &kp G          &kp J      &kp L         &kp U        &kp Y       &kp SEMI
+                        &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T      &kp D          &kp H      &mt RSHFT N   &mt RCTRL E  &mt RALT I  &mt RGUI O
+&mt LEFT_CONTROL GRAVE  &kp Z       &kp X       &kp C        &kp V            &kp B          &kp K      &kp M         &kp COMMA    &kp DOT     &kp FSLH    &mt RIGHT_SHIFT BACKSLASH
+                                                &lt 2 TAB    &lt 4 BACKSPACE  &lt 1 SPACE    &lt 1 RET  &lt 4 DELETE  &lt SYM ESC
             >;
         };
 
@@ -177,10 +177,10 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        tvp1_layer {
+        reverse_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "TVP 1";
+            label = "REV";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
