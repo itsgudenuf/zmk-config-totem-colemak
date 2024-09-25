@@ -144,7 +144,7 @@
 
             bindings = <
         &kp ESC     &kp HOME        &kp UP    &kp END          &none     &kp KP_DIVIDE  &kp KP_N7      &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY
-        &kp LSHFT   &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &none     &kp KP_EQUAL   &kp KP_N4      &kp KP_N5  &kp KP_N6  &kp MINUS
+        &kp LSHFT   &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &none     &kp EQUAL      &kp KP_N4      &kp KP_N5  &kp KP_N6  &kp MINUS
 &trans  &kp DELETE  &kp PG_UP       &kp CAPS  &kp PG_DN        &none     &kp KP_DOT     &kp KP_N1      &kp KP_N2  &kp KP_N3  &kp KP_PLUS      &trans
                                     &trans    &trans           &trans    &mo ADJ        &kp BACKSPACE  &kp KP_N0
             >;
