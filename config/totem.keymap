@@ -51,7 +51,7 @@
         };
 
         numbers {
-            bindings = <&num_word>;
+            bindings = <&tog 1>;
             key-positions = <27 28 29>;
         };
     };
@@ -90,13 +90,6 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        num_word: num_word {
-            compatible = "zmk,behavior-caps-word";
-            label = "NUM_WORD";
-            #binding-cells = <0>;
-            continue-list = <BACKSPACE ENTER DELETE UNDERSCORE MINUS PLUS ASTRK EQUAL FSLH DOT LPAR RPAR HASH DLLR PRCNT CARET>;
         };
     };
 
