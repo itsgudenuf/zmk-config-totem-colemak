@@ -57,7 +57,7 @@
 
         combo_enter2 {
             bindings = <&kp ENTER>;
-            key-positions = <5 6>;
+            key-positions = <15 26>;
             layers = <1>;
         };
     };
