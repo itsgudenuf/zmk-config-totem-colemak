@@ -230,10 +230,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp SEMI  &kp Y    &kp U      &kp L   &kp J     &kp G   &kp P   &kp F   &kp W  &kp Q
-        &kp O     &kp I    &kp E      &kp N   &kp H     &kp D   &kp T   &kp S   &kp R  &kp A
-&trans  &kp FSLH  &kp DOT  &kp COMMA  &kp M   &kp K     &kp B   &kp V   &kp C   &kp X  &kp Z  &trans
-                           &trans     &trans  &trans    &trans  &trans  &trans
+        &kp SQT   &kp Y       &kp U         &kp L   &kp J     &kp G   &kp P   &kp F   &kp W  &kp Q
+        &kp O     &kp I       &kp E         &kp N   &kp H     &kp D   &kp T   &kp S   &kp R  &kp A
+&trans  &kp FSLH  &dot_morph  &comma_morph  &kp M   &kp K     &kp B   &kp V   &kp C   &kp X  &kp Z  &trans
+                              &trans        &trans  &trans    &trans  &trans  &trans
             >;
         };
 
