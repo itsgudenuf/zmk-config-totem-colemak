@@ -127,10 +127,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                        &kp Q       &kp W       &kp F        &kp P            &kp G          &kp J      &kp L         &kp U         &kp Y       &kp SQT
-                        &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T      &kp D          &kp H      &mt RSHFT N   &mt RCTRL E   &mt RALT I  &mt RGUI O
-&mt LEFT_CONTROL GRAVE  &kp Z       &kp X       &kp C        &kp V            &kp B          &kp K      &kp M         &comma_morph  &dot_morph  &kp FSLH    &mt RIGHT_SHIFT BACKSLASH
-                                                &lt 2 TAB    &lt 4 BACKSPACE  &lt 1 SPACE    &lt 1 RET  &lt 4 DELETE  &lt SYM ESC
+                  &kp Q       &kp W       &kp F        &kp P            &kp G          &kp J      &kp L         &kp U         &kp Y       &kp SQT
+                  &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T      &kp D          &kp H      &mt RSHFT N   &mt RCTRL E   &mt RALT I  &mt RGUI O
+&kp LEFT_CONTROL  &kp Z       &kp X       &kp C        &kp V            &kp B          &kp K      &kp M         &comma_morph  &dot_morph  &kp FSLH    &kp RIGHT_SHIFT
+                                          &lt 2 TAB    &lt 4 BACKSPACE  &lt 1 SPACE    &lt 1 RET  &lt 4 DELETE  &lt SYM ESC
             >;
         };
 
@@ -181,9 +181,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL  &kp AT            &kp HASH              &kp DLLR               &kp PRCNT            &kp CARET     &kp AMPS      &kp ASTRK   &none       &kp TILDE
-        &trans    &kp LEFT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_BRACKET    &kp C_MUTE    &trans        &trans      &trans      &kp UNDERSCORE
-&trans  &trans    &kp LESS_THAN     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN     &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp BSLH        &trans
+        &kp EXCL  &kp AT            &kp HASH              &kp DLLR               &kp PRCNT            &kp CARET     &kp AMPS      &kp ASTRK   &kp GRAVE   &kp TILDE
+        &none     &kp LEFT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_BRACKET    &kp C_MUTE    &none         &none       &none       &kp UNDERSCORE
+&trans  &none     &kp LESS_THAN     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN     &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp BSLH        &trans
                                     &trans                &trans                 &mo ADJ              &trans        &kp C_PP      &trans
             >;
         };
