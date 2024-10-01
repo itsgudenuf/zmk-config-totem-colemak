@@ -81,6 +81,21 @@
             bindings = <&kp LC(C)>;
             key-positions = <23 12>;
         };
+
+        combo_Ctrl_X {
+            bindings = <&kp LC(X)>;
+            key-positions = <11 22>;
+        };
+
+        combo_Ctrl_V {
+            bindings = <&kp LC(V)>;
+            key-positions = <13 24>;
+        };
+
+        combo_Ctrl_Z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <21 10>;
+        };
     };
 
     macros {
