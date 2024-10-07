@@ -98,6 +98,11 @@
             bindings = <&kp LC(Z)>;
             key-positions = <21 10>;
         };
+
+        combo_Ctrl_S {
+            bindings = <&kp LC(S)>;
+            key-positions = <2 12>;
+        };
     };
 
     macros {
