@@ -91,7 +91,7 @@
 
         combo_Ctrl_V {
             bindings = <&kp LC(V)>;
-            key-positions = <13 24>;
+            key-positions = <14 25>;
         };
 
         combo_Ctrl_Z {
@@ -165,9 +165,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp Q  &kp W       &kp F        &kp P            &kp G          &kp J      &kp L         &kp U         &kp Y       &kp SQT
-                  &kp A  &mt LALT R  &mt LCTRL S  &mt LSHFT T      &kp D          &kp H      &mt RSHFT N   &mt RCTRL E   &mt RALT I  &kp O
-&kp LEFT_CONTROL  &kp Z  &kp X       &kp C        &kp V            &kp B          &kp K      &kp M         &comma_morph  &dot_morph  &kp FSLH  &kp RIGHT_SHIFT
+                  &kp Q  &kp W       &kp F        &kp P            &kp B          &kp J      &kp L         &kp U         &kp Y       &kp SQT
+                  &kp A  &mt LALT R  &mt LCTRL S  &mt LSHFT T      &kp G          &kp M      &mt RSHFT N   &mt RCTRL E   &mt RALT I  &kp O
+&kp LEFT_CONTROL  &kp Z  &kp X       &kp C        &kp D            &kp V          &kp K      &kp H         &comma_morph  &dot_morph  &kp FSLH  &kp RIGHT_SHIFT
                                      &lt 2 TAB    &lt 4 BACKSPACE  &lt 1 SPACE    &lt 1 RET  &lt 4 DELETE  &lt SYM ESC
             >;
         };
