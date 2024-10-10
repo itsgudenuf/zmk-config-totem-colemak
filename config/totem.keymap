@@ -50,7 +50,7 @@
 
         combo_enter {
             bindings = <&kp ENTER>;
-            key-positions = <3 4>;
+            key-positions = <4 14>;
         };
 
         combo_numbers {
@@ -62,11 +62,6 @@
             bindings = <&kp ENTER>;
             key-positions = <15 26>;
             layers = <1>;
-        };
-
-        combo_Ltab {
-            bindings = <&kp TAB>;
-            key-positions = <10 0>;
         };
 
         combo_Rwin {
