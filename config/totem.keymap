@@ -10,11 +10,12 @@
 //
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NAV  1
@@ -27,7 +28,7 @@
     flavor = "balanced";
     tapping-term-ms = <280>;
     quick-tap-ms = <175>;
-    require-prior-idle-ms = <125>;
+    require-prior-idle-ms = <145>;
     hold-trigger-key-positions = <10 11 12 13 16 17 18 19 37 36 35 34 33 32>;
     hold-trigger-on-release;
 };
@@ -187,10 +188,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp ESC     &kp HOME        &kp UP    &kp END          &mkp LCLK    &kp SLASH   &kp N7         &kp N8        &kp NUMBER_9  &kp ASTERISK
-       &kp LSHFT   &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &mkp MCLK    &kp EQUAL   &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp MINUS
-&to 0  &kp DELETE  &kp PG_UP       &kp CAPS  &kp PG_DN        &mkp RCLK    &kp PERIOD  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &trans
-                                   &trans    &trans           &trans       &trans      &kp BACKSPACE  &kp NUMBER_0
+        &kp ESC     &kp HOME        &kp UP    &kp END          &mkp LCLK    &kp SLASH   &kp N7         &kp N8        &kp NUMBER_9  &kp ASTERISK
+        &kp LSHFT   &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &mkp MCLK    &kp EQUAL   &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp MINUS
+&trans  &kp DELETE  &kp PG_UP       &kp CAPS  &kp PG_DN        &mkp RCLK    &kp PERIOD  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &trans
+                                    &trans    &trans           &trans       &trans      &kp BACKSPACE  &kp NUMBER_0
             >;
         };
 
